@@ -1,5 +1,12 @@
 # Kernel Language Entropy: <br> Fine-grained Uncertainty Quantification for LLMs
 
+This repository is the official implementation of the methods in the publication [Kernel Language Entropy: Fine-grained Uncertainty Quantification for LLMs from Semantic Similarities (NeurIPS'24)](https://arxiv.org/abs/2405.20003).
+
+
+<div align="center">
+<img src="./static/kle_summary.png">
+</div>
+
 This code builds on [Semantic Uncertainty codebase](https://github.com/jlko/semantic_uncertainty/tree/master).
 
 KLE and utils around it are in the `./kle/` folder. The rest of the codebase is similar to the original one but additionally evaluates KLE with various hyperparameters.
